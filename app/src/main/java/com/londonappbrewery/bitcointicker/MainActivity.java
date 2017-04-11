@@ -20,7 +20,8 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity {
 
     // Constants:
-    private final String BASE_URL = "https://api.bitcoinaverage.com/ticker/";
+    // TODO: Create the base URL
+    private final String BASE_URL = "https://apiv2.bitcoin ...";
 
     // Member Variables:
     TextView mPriceTextView;
