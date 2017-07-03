@@ -6,7 +6,6 @@
 
     android:id="@android:id/text1"
     style="?android:attr/spinnerDropDownItemStyle"
-    android:singleLine="true"
     android:ellipsize="marquee"
     android:text="@string/label_error_text"
     android:textColor="@color/black"
@@ -15,7 +14,7 @@
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
 
-    />
+    android:maxLines="1"/>
 
 
 
